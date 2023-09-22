@@ -40,6 +40,11 @@ public static boolean subsequenceHasHackerrankRec(String s, int i /* = 0*/, int 
             //subsequenceHasHackerrankRec(s, 2, nextCharacterIndex);
             {
                 ...
+                //subsequenceHasHackerrankRec(s, 10, nextCharacterIndex);
+                {
+                    //will always be true, since `HACKERRANK_CHARS.length` is `10` at compile-time 
+                    if (i >= HACKERRANK_CHARS.length) return true;
+                }
             }
         }
     }
