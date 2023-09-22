@@ -20,7 +20,7 @@ My solution to this problem runs in $O(n)$. This is most easily analyzed with th
 of my code (which may be losslessly transformed from the recursive version).
 
 $$
-\sum_{i=0}^{ |"hackerrank"| } \text{indexof(c, _)}
+\sum_{i=0}^{ |"hackerrank"| } \text{indexof(c, x)}
 $$
 
 Since `indexof` runs in $O(n)$, this is equivalent to 
