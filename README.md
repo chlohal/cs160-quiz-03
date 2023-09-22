@@ -26,9 +26,12 @@ $$
 Since `indexof` runs in $O(n)$, this is equivalent to 
 
 $$
-\sum_{i=0}^{10} \sum_{i=0}^{n} 1
+\begin{gather}
+\sum_{i=0}^{10} \sum_{i=0}^{n} 1 \\
+\sum_{i=0}^{10}n
+\end{gather}
 $$
 
-which shortens to $\sum_{i=0}^{10} n$, which is asymtotically 
+which is asymtotically 
 equivalent to $O(n)$ (because initial coefficients aren't in big O notation).
 
